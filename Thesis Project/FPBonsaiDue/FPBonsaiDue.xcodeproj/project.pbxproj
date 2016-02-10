@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863A57C11AB672FE00DEB70C /* leavesCascade.xml in Resources */ = {isa = PBXBuildFile; fileRef = 863A57C01AB672FE00DEB70C /* leavesCascade.xml */; };
+		863A57C21AB673FC00DEB70C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866A18CB183BAAD60041F977 /* opencv2.framework */; };
+		86467A8F17FED0EF008FCF80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A8E17FED0EF008FCF80 /* Foundation.framework */; };
+		86467A9117FED0EF008FCF80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A9017FED0EF008FCF80 /* CoreGraphics.framework */; };
+		86467A9317FED0EF008FCF80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A9217FED0EF008FCF80 /* UIKit.framework */; };
+		86467A9517FED0EF008FCF80 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A9417FED0EF008FCF80 /* CoreData.framework */; };
+		86467A9B17FED0EF008FCF80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86467A9917FED0EF008FCF80 /* InfoPlist.strings */; };
+		86467A9D17FED0EF008FCF80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467A9C17FED0EF008FCF80 /* main.m */; };
+		86467AA117FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467AA017FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.m */; };
+		86467AA417FED0EF008FCF80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86467AA217FED0EF008FCF80 /* Main.storyboard */; };
+		86467AA717FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86467AA517FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodeld */; };
+		86467AAA17FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467AA917FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.m */; };
+		86467AAD17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467AAC17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.m */; };
+		86467AAF17FED0EF008FCF80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86467AAE17FED0EF008FCF80 /* Images.xcassets */; };
+		86467AB617FED0EF008FCF80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467AB517FED0EF008FCF80 /* XCTest.framework */; };
+		86467AB717FED0EF008FCF80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A8E17FED0EF008FCF80 /* Foundation.framework */; };
+		86467AB817FED0EF008FCF80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A9217FED0EF008FCF80 /* UIKit.framework */; };
+		86467AB917FED0EF008FCF80 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86467A9417FED0EF008FCF80 /* CoreData.framework */; };
+		86467AC117FED0EF008FCF80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86467ABF17FED0EF008FCF80 /* InfoPlist.strings */; };
+		86467AC317FED0EF008FCF80 /* FPCBonsaiDueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467AC217FED0EF008FCF80 /* FPCBonsaiDueTests.m */; };
+		86467ACE17FED3B9008FCF80 /* FPCBonsai.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467ACD17FED3B9008FCF80 /* FPCBonsai.m */; };
+		86467AD117FEDB06008FCF80 /* FPCBonsaiDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86467AD017FEDB06008FCF80 /* FPCBonsaiDataController.m */; };
+		8676486D182121AF0032E7B7 /* haarcascade1275.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8676486C182121AF0032E7B7 /* haarcascade1275.xml */; };
+		86AA5B6E1805B931008246EE /* FPCBonsaiDueCameraController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86AA5B6D1805B931008246EE /* FPCBonsaiDueCameraController.mm */; };
+		86AA5B701806F86E008246EE /* FPCBonsaiVarietiesInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B6F1806F86E008246EE /* FPCBonsaiVarietiesInfo.plist */; };
+		86AA5B8B18071A62008246EE /* Abete Bianco (Abies alba).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7318071A62008246EE /* Abete Bianco (Abies alba).png */; };
+		86AA5B8C18071A62008246EE /* Abete di Douglas (Pseudotsuga Menziesii).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7418071A62008246EE /* Abete di Douglas (Pseudotsuga Menziesii).png */; };
+		86AA5B8D18071A62008246EE /* Acacia Retinodes.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7518071A62008246EE /* Acacia Retinodes.png */; };
+		86AA5B8E18071A62008246EE /* Acero Rosso Giapponese (Acer palmatum atropurpureum).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7618071A62008246EE /* Acero Rosso Giapponese (Acer palmatum atropurpureum).png */; };
+		86AA5B8F18071A62008246EE /* Acero Trilobo (Acer monospessulanum).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7718071A62008246EE /* Acero Trilobo (Acer monospessulanum).png */; };
+		86AA5B9018071A62008246EE /* Camelia Japonica.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7818071A62008246EE /* Camelia Japonica.png */; };
+		86AA5B9118071A62008246EE /* Cedro del Libano (Cedrus Libani).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7918071A62008246EE /* Cedro del Libano (Cedrus Libani).png */; };
+		86AA5B9218071A62008246EE /* Ciliegio Giapponese (Prunus Mahaleb).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7A18071A62008246EE /* Ciliegio Giapponese (Prunus Mahaleb).png */; };
+		86AA5B9318071A62008246EE /* Ciliegio Selvatico (Prunus avium).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7B18071A62008246EE /* Ciliegio Selvatico (Prunus avium).png */; };
+		86AA5B9418071A62008246EE /* Ficus ginseng (Ficus retusa).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7C18071A62008246EE /* Ficus ginseng (Ficus retusa).png */; };
+		86AA5B9518071A62008246EE /* Gardenia (Gardenia jasminoides).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7D18071A62008246EE /* Gardenia (Gardenia jasminoides).png */; };
+		86AA5B9618071A62008246EE /* Gelso Nero.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7E18071A62008246EE /* Gelso Nero.png */; };
+		86AA5B9718071A62008246EE /* Giada (Crassula ovata).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B7F18071A62008246EE /* Giada (Crassula ovata).png */; };
+		86AA5B9818071A62008246EE /* Ginepro dello Utah (Juniperus osteosperma).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8018071A62008246EE /* Ginepro dello Utah (Juniperus osteosperma).png */; };
+		86AA5B9918071A62008246EE /* Kapok (Ceiba Pentandra).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8118071A62008246EE /* Kapok (Ceiba Pentandra).png */; };
+		86AA5B9A18071A62008246EE /* Ligustro cinese (Ligustrum sinesis).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8218071A62008246EE /* Ligustro cinese (Ligustrum sinesis).png */; };
+		86AA5B9B18071A62008246EE /* Liquidambar (Liquidambar Styraciflua).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8318071A62008246EE /* Liquidambar (Liquidambar Styraciflua).png */; };
+		86AA5B9C18071A62008246EE /* Melo (Malus Communis).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8418071A62008246EE /* Melo (Malus Communis).png */; };
+		86AA5B9D18071A62008246EE /* MetaSequoia (Metasequoia glyptostroboides).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8518071A62008246EE /* MetaSequoia (Metasequoia glyptostroboides).png */; };
+		86AA5B9E18071A62008246EE /* Pino Contorto (pinus contorta Marrayana).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8618071A62008246EE /* Pino Contorto (pinus contorta Marrayana).png */; };
+		86AA5B9F18071A62008246EE /* Pino d'Aleppo (Pinus Halepensis).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8718071A62008246EE /* Pino d'Aleppo (Pinus Halepensis).png */; };
+		86AA5BA018071A62008246EE /* Pino Nero Giapponese (Pinus Thunbergii).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8818071A62008246EE /* Pino Nero Giapponese (Pinus Thunbergii).png */; };
+		86AA5BA118071A62008246EE /* Pyracantha (Pyracantha coccinea.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8918071A62008246EE /* Pyracantha (Pyracantha coccinea.png */; };
+		86AA5BA218071A62008246EE /* Tasso (Taxus Baccata).png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5B8A18071A62008246EE /* Tasso (Taxus Baccata).png */; };
+		86AA5BA51809B8D7008246EE /* Altro.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5BA41809B8D7008246EE /* Altro.png */; };
+		86AA5BAC180AD401008246EE /* FPCBonsaiDueCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86AA5BAB180AD401008246EE /* FPCBonsaiDueCV.mm */; };
+		86AA5BB6180C253B008246EE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BAF180C253B008246EE /* Accelerate.framework */; };
+		86AA5BB7180C253B008246EE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BB0180C253B008246EE /* AssetsLibrary.framework */; };
+		86AA5BB8180C253B008246EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BB1180C253B008246EE /* AVFoundation.framework */; };
+		86AA5BB9180C253B008246EE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BB2180C253B008246EE /* CoreImage.framework */; };
+		86AA5BBA180C253B008246EE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BB3180C253B008246EE /* CoreMedia.framework */; };
+		86AA5BBB180C253B008246EE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BB4180C253B008246EE /* CoreVideo.framework */; };
+		86AA5BBC180C253B008246EE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BB5180C253B008246EE /* QuartzCore.framework */; };
+		86AA5BBE180C274F008246EE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5BBD180C274F008246EE /* ImageIO.framework */; };
+		86AA5BC0180C293C008246EE /* openCV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5BBF180C293C008246EE /* openCV-Info.plist */; };
+		86AA5BC2180C2D87008246EE /* parojosG.xml in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5BC1180C2D87008246EE /* parojosG.xml */; };
+		86AA5BC4180C2E35008246EE /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 86AA5BC3180C2E35008246EE /* haarcascade_frontalface_alt2.xml */; };
+		86FFE36317FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FFE36217FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86467ABA17FED0EF008FCF80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86467A8317FED0EF008FCF80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86467A8A17FED0EF008FCF80;
+			remoteInfo = FPBonsaiDue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		863A57C01AB672FE00DEB70C /* leavesCascade.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = leavesCascade.xml; sourceTree = "<group>"; };
+		86467A8B17FED0EF008FCF80 /* FPBonsaiDue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPBonsaiDue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86467A8E17FED0EF008FCF80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86467A9017FED0EF008FCF80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86467A9217FED0EF008FCF80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86467A9417FED0EF008FCF80 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		86467A9817FED0EF008FCF80 /* FPBonsaiDue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FPBonsaiDue-Info.plist"; sourceTree = "<group>"; };
+		86467A9A17FED0EF008FCF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86467A9C17FED0EF008FCF80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		86467A9E17FED0EF008FCF80 /* FPBonsaiDue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FPBonsaiDue-Prefix.pch"; sourceTree = "<group>"; };
+		86467A9F17FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDueAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86467AA017FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsaiDueAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		86467AA317FED0EF008FCF80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86467AA617FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FPCBonsaiDue.xcdatamodel; sourceTree = "<group>"; };
+		86467AA817FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDueMasterViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86467AA917FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsaiDueMasterViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		86467AAB17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDueDetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86467AAC17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsaiDueDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		86467AAE17FED0EF008FCF80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86467AB417FED0EF008FCF80 /* FPBonsaiDueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPBonsaiDueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86467AB517FED0EF008FCF80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86467ABE17FED0EF008FCF80 /* FPBonsaiDueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FPBonsaiDueTests-Info.plist"; sourceTree = "<group>"; };
+		86467AC017FED0EF008FCF80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86467AC217FED0EF008FCF80 /* FPCBonsaiDueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsaiDueTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		86467ACC17FED3B9008FCF80 /* FPCBonsai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsai.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86467ACD17FED3B9008FCF80 /* FPCBonsai.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsai.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		86467ACF17FEDB06008FCF80 /* FPCBonsaiDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDataController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86467AD017FEDB06008FCF80 /* FPCBonsaiDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsaiDataController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		866A18CB183BAAD60041F977 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = /Developer/Examples/iPhone/Projects/FPBonsaiDue/FPBonsaiDue/Frameworks/opencv2.framework; sourceTree = "<absolute>"; };
+		8676486C182121AF0032E7B7 /* haarcascade1275.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade1275.xml; sourceTree = "<group>"; };
+		86AA5B6C1805B931008246EE /* FPCBonsaiDueCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDueCameraController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86AA5B6D1805B931008246EE /* FPCBonsaiDueCameraController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = FPCBonsaiDueCameraController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86AA5B6F1806F86E008246EE /* FPCBonsaiVarietiesInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FPCBonsaiVarietiesInfo.plist; sourceTree = "<group>"; };
+		86AA5B7318071A62008246EE /* Abete Bianco (Abies alba).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Abete Bianco (Abies alba).png"; path = "Images.xcassets/Abete Bianco (Abies alba).png"; sourceTree = "<group>"; };
+		86AA5B7418071A62008246EE /* Abete di Douglas (Pseudotsuga Menziesii).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Abete di Douglas (Pseudotsuga Menziesii).png"; path = "Images.xcassets/Abete di Douglas (Pseudotsuga Menziesii).png"; sourceTree = "<group>"; };
+		86AA5B7518071A62008246EE /* Acacia Retinodes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acacia Retinodes.png"; path = "Images.xcassets/Acacia Retinodes.png"; sourceTree = "<group>"; };
+		86AA5B7618071A62008246EE /* Acero Rosso Giapponese (Acer palmatum atropurpureum).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acero Rosso Giapponese (Acer palmatum atropurpureum).png"; path = "Images.xcassets/Acero Rosso Giapponese (Acer palmatum atropurpureum).png"; sourceTree = "<group>"; };
+		86AA5B7718071A62008246EE /* Acero Trilobo (Acer monospessulanum).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Acero Trilobo (Acer monospessulanum).png"; path = "Images.xcassets/Acero Trilobo (Acer monospessulanum).png"; sourceTree = "<group>"; };
+		86AA5B7818071A62008246EE /* Camelia Japonica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Camelia Japonica.png"; path = "Images.xcassets/Camelia Japonica.png"; sourceTree = "<group>"; };
+		86AA5B7918071A62008246EE /* Cedro del Libano (Cedrus Libani).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Cedro del Libano (Cedrus Libani).png"; path = "Images.xcassets/Cedro del Libano (Cedrus Libani).png"; sourceTree = "<group>"; };
+		86AA5B7A18071A62008246EE /* Ciliegio Giapponese (Prunus Mahaleb).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ciliegio Giapponese (Prunus Mahaleb).png"; path = "Images.xcassets/Ciliegio Giapponese (Prunus Mahaleb).png"; sourceTree = "<group>"; };
+		86AA5B7B18071A62008246EE /* Ciliegio Selvatico (Prunus avium).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ciliegio Selvatico (Prunus avium).png"; path = "Images.xcassets/Ciliegio Selvatico (Prunus avium).png"; sourceTree = "<group>"; };
+		86AA5B7C18071A62008246EE /* Ficus ginseng (Ficus retusa).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ficus ginseng (Ficus retusa).png"; path = "Images.xcassets/Ficus ginseng (Ficus retusa).png"; sourceTree = "<group>"; };
+		86AA5B7D18071A62008246EE /* Gardenia (Gardenia jasminoides).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gardenia (Gardenia jasminoides).png"; path = "Images.xcassets/Gardenia (Gardenia jasminoides).png"; sourceTree = "<group>"; };
+		86AA5B7E18071A62008246EE /* Gelso Nero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Gelso Nero.png"; path = "Images.xcassets/Gelso Nero.png"; sourceTree = "<group>"; };
+		86AA5B7F18071A62008246EE /* Giada (Crassula ovata).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Giada (Crassula ovata).png"; path = "Images.xcassets/Giada (Crassula ovata).png"; sourceTree = "<group>"; };
+		86AA5B8018071A62008246EE /* Ginepro dello Utah (Juniperus osteosperma).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ginepro dello Utah (Juniperus osteosperma).png"; path = "Images.xcassets/Ginepro dello Utah (Juniperus osteosperma).png"; sourceTree = "<group>"; };
+		86AA5B8118071A62008246EE /* Kapok (Ceiba Pentandra).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Kapok (Ceiba Pentandra).png"; path = "Images.xcassets/Kapok (Ceiba Pentandra).png"; sourceTree = "<group>"; };
+		86AA5B8218071A62008246EE /* Ligustro cinese (Ligustrum sinesis).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ligustro cinese (Ligustrum sinesis).png"; path = "Images.xcassets/Ligustro cinese (Ligustrum sinesis).png"; sourceTree = "<group>"; };
+		86AA5B8318071A62008246EE /* Liquidambar (Liquidambar Styraciflua).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Liquidambar (Liquidambar Styraciflua).png"; path = "Images.xcassets/Liquidambar (Liquidambar Styraciflua).png"; sourceTree = "<group>"; };
+		86AA5B8418071A62008246EE /* Melo (Malus Communis).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melo (Malus Communis).png"; path = "Images.xcassets/Melo (Malus Communis).png"; sourceTree = "<group>"; };
+		86AA5B8518071A62008246EE /* MetaSequoia (Metasequoia glyptostroboides).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MetaSequoia (Metasequoia glyptostroboides).png"; path = "Images.xcassets/MetaSequoia (Metasequoia glyptostroboides).png"; sourceTree = "<group>"; };
+		86AA5B8618071A62008246EE /* Pino Contorto (pinus contorta Marrayana).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pino Contorto (pinus contorta Marrayana).png"; path = "Images.xcassets/Pino Contorto (pinus contorta Marrayana).png"; sourceTree = "<group>"; };
+		86AA5B8718071A62008246EE /* Pino d'Aleppo (Pinus Halepensis).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pino d'Aleppo (Pinus Halepensis).png"; path = "Images.xcassets/Pino d'Aleppo (Pinus Halepensis).png"; sourceTree = "<group>"; };
+		86AA5B8818071A62008246EE /* Pino Nero Giapponese (Pinus Thunbergii).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pino Nero Giapponese (Pinus Thunbergii).png"; path = "Images.xcassets/Pino Nero Giapponese (Pinus Thunbergii).png"; sourceTree = "<group>"; };
+		86AA5B8918071A62008246EE /* Pyracantha (Pyracantha coccinea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pyracantha (Pyracantha coccinea.png"; path = "Images.xcassets/Pyracantha (Pyracantha coccinea.png"; sourceTree = "<group>"; };
+		86AA5B8A18071A62008246EE /* Tasso (Taxus Baccata).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tasso (Taxus Baccata).png"; path = "Images.xcassets/Tasso (Taxus Baccata).png"; sourceTree = "<group>"; };
+		86AA5BA41809B8D7008246EE /* Altro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Altro.png; path = Images.xcassets/Altro.png; sourceTree = "<group>"; };
+		86AA5BAA180AD401008246EE /* FPCBonsaiDueCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDueCV.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86AA5BAB180AD401008246EE /* FPCBonsaiDueCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = FPCBonsaiDueCV.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86AA5BAF180C253B008246EE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		86AA5BB0180C253B008246EE /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		86AA5BB1180C253B008246EE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		86AA5BB2180C253B008246EE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		86AA5BB3180C253B008246EE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		86AA5BB4180C253B008246EE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		86AA5BB5180C253B008246EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		86AA5BBD180C274F008246EE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		86AA5BBF180C293C008246EE /* openCV-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openCV-Info.plist"; sourceTree = "<group>"; };
+		86AA5BC1180C2D87008246EE /* parojosG.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = parojosG.xml; sourceTree = "<group>"; };
+		86AA5BC3180C2E35008246EE /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		86FFE36117FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = FPCBonsaiDueAddBonsaiViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		86FFE36217FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FPCBonsaiDueAddBonsaiViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86467A8817FED0EF008FCF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863A57C21AB673FC00DEB70C /* opencv2.framework in Frameworks */,
+				86AA5BBE180C274F008246EE /* ImageIO.framework in Frameworks */,
+				86AA5BB6180C253B008246EE /* Accelerate.framework in Frameworks */,
+				86AA5BB7180C253B008246EE /* AssetsLibrary.framework in Frameworks */,
+				86AA5BB8180C253B008246EE /* AVFoundation.framework in Frameworks */,
+				86AA5BB9180C253B008246EE /* CoreImage.framework in Frameworks */,
+				86AA5BBA180C253B008246EE /* CoreMedia.framework in Frameworks */,
+				86AA5BBB180C253B008246EE /* CoreVideo.framework in Frameworks */,
+				86AA5BBC180C253B008246EE /* QuartzCore.framework in Frameworks */,
+				86467A9117FED0EF008FCF80 /* CoreGraphics.framework in Frameworks */,
+				86467A9517FED0EF008FCF80 /* CoreData.framework in Frameworks */,
+				86467A9317FED0EF008FCF80 /* UIKit.framework in Frameworks */,
+				86467A8F17FED0EF008FCF80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86467AB117FED0EF008FCF80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86467AB617FED0EF008FCF80 /* XCTest.framework in Frameworks */,
+				86467AB917FED0EF008FCF80 /* CoreData.framework in Frameworks */,
+				86467AB817FED0EF008FCF80 /* UIKit.framework in Frameworks */,
+				86467AB717FED0EF008FCF80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86467A8217FED0EF008FCF80 = {
+			isa = PBXGroup;
+			children = (
+				86467A9617FED0EF008FCF80 /* FPBonsaiDue */,
+				86467A8D17FED0EF008FCF80 /* Frameworks */,
+				86467ABC17FED0EF008FCF80 /* FPCBonsaiDueTests */,
+				86467A8C17FED0EF008FCF80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86467A8C17FED0EF008FCF80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86467A8B17FED0EF008FCF80 /* FPBonsaiDue.app */,
+				86467AB417FED0EF008FCF80 /* FPBonsaiDueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86467A8D17FED0EF008FCF80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866A18CB183BAAD60041F977 /* opencv2.framework */,
+				86AA5BBD180C274F008246EE /* ImageIO.framework */,
+				86AA5BAF180C253B008246EE /* Accelerate.framework */,
+				86AA5BB0180C253B008246EE /* AssetsLibrary.framework */,
+				86AA5BB1180C253B008246EE /* AVFoundation.framework */,
+				86AA5BB2180C253B008246EE /* CoreImage.framework */,
+				86AA5BB3180C253B008246EE /* CoreMedia.framework */,
+				86AA5BB4180C253B008246EE /* CoreVideo.framework */,
+				86AA5BB5180C253B008246EE /* QuartzCore.framework */,
+				86467A8E17FED0EF008FCF80 /* Foundation.framework */,
+				86467A9017FED0EF008FCF80 /* CoreGraphics.framework */,
+				86467A9217FED0EF008FCF80 /* UIKit.framework */,
+				86467A9417FED0EF008FCF80 /* CoreData.framework */,
+				86467AB517FED0EF008FCF80 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86467A9617FED0EF008FCF80 /* FPBonsaiDue */ = {
+			isa = PBXGroup;
+			children = (
+				86AA5B7218071A2D008246EE /* Classes */,
+				86467A9717FED0EF008FCF80 /* Supporting Files */,
+				86AA5B711806F8A6008246EE /* Varieties Resources */,
+				86467AAE17FED0EF008FCF80 /* Images.xcassets */,
+				86467AA517FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodeld */,
+			);
+			path = FPBonsaiDue;
+			sourceTree = "<group>";
+		};
+		86467A9717FED0EF008FCF80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				863A57C01AB672FE00DEB70C /* leavesCascade.xml */,
+				8676486C182121AF0032E7B7 /* haarcascade1275.xml */,
+				86AA5BBF180C293C008246EE /* openCV-Info.plist */,
+				86AA5BC1180C2D87008246EE /* parojosG.xml */,
+				86AA5BC3180C2E35008246EE /* haarcascade_frontalface_alt2.xml */,
+				86467A9817FED0EF008FCF80 /* FPBonsaiDue-Info.plist */,
+				86467A9917FED0EF008FCF80 /* InfoPlist.strings */,
+				86467A9C17FED0EF008FCF80 /* main.m */,
+				86467A9E17FED0EF008FCF80 /* FPBonsaiDue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86467ABC17FED0EF008FCF80 /* FPCBonsaiDueTests */ = {
+			isa = PBXGroup;
+			children = (
+				86467AC217FED0EF008FCF80 /* FPCBonsaiDueTests.m */,
+				86467ABD17FED0EF008FCF80 /* Supporting Files */,
+			);
+			name = FPCBonsaiDueTests;
+			path = FPBonsaiDueTests;
+			sourceTree = "<group>";
+		};
+		86467ABD17FED0EF008FCF80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86467ABE17FED0EF008FCF80 /* FPBonsaiDueTests-Info.plist */,
+				86467ABF17FED0EF008FCF80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		866A18CD183BB56D0041F977 /* Data Model + DAO */ = {
+			isa = PBXGroup;
+			children = (
+				86467ACC17FED3B9008FCF80 /* FPCBonsai.h */,
+				86467ACD17FED3B9008FCF80 /* FPCBonsai.m */,
+				86467ACF17FEDB06008FCF80 /* FPCBonsaiDataController.h */,
+				86467AD017FEDB06008FCF80 /* FPCBonsaiDataController.m */,
+			);
+			name = "Data Model + DAO";
+			sourceTree = "<group>";
+		};
+		866A18CE183BB59D0041F977 /* Base ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86467AA817FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.h */,
+				86467AA917FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.m */,
+				86467AAB17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.h */,
+				86467AAC17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.m */,
+				86FFE36117FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.h */,
+				86FFE36217FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.m */,
+			);
+			name = "Base ViewControllers";
+			sourceTree = "<group>";
+		};
+		866A18CF183BB5D60041F977 /* CamController + Image Processing */ = {
+			isa = PBXGroup;
+			children = (
+				86AA5B6C1805B931008246EE /* FPCBonsaiDueCameraController.h */,
+				86AA5B6D1805B931008246EE /* FPCBonsaiDueCameraController.mm */,
+				86AA5BAA180AD401008246EE /* FPCBonsaiDueCV.h */,
+				86AA5BAB180AD401008246EE /* FPCBonsaiDueCV.mm */,
+			);
+			name = "CamController + Image Processing";
+			sourceTree = "<group>";
+		};
+		86AA5B711806F8A6008246EE /* Varieties Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86AA5B6F1806F86E008246EE /* FPCBonsaiVarietiesInfo.plist */,
+				86AA5BA318071A88008246EE /* FPCBonsaiImages */,
+			);
+			name = "Varieties Resources";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		86AA5B7218071A2D008246EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86467A9F17FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.h */,
+				86467AA017FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.m */,
+				86467AA217FED0EF008FCF80 /* Main.storyboard */,
+				866A18CD183BB56D0041F977 /* Data Model + DAO */,
+				866A18CE183BB59D0041F977 /* Base ViewControllers */,
+				866A18CF183BB5D60041F977 /* CamController + Image Processing */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		86AA5BA318071A88008246EE /* FPCBonsaiImages */ = {
+			isa = PBXGroup;
+			children = (
+				86AA5BA41809B8D7008246EE /* Altro.png */,
+				86AA5B7318071A62008246EE /* Abete Bianco (Abies alba).png */,
+				86AA5B7418071A62008246EE /* Abete di Douglas (Pseudotsuga Menziesii).png */,
+				86AA5B7518071A62008246EE /* Acacia Retinodes.png */,
+				86AA5B7618071A62008246EE /* Acero Rosso Giapponese (Acer palmatum atropurpureum).png */,
+				86AA5B7718071A62008246EE /* Acero Trilobo (Acer monospessulanum).png */,
+				86AA5B7818071A62008246EE /* Camelia Japonica.png */,
+				86AA5B7918071A62008246EE /* Cedro del Libano (Cedrus Libani).png */,
+				86AA5B7A18071A62008246EE /* Ciliegio Giapponese (Prunus Mahaleb).png */,
+				86AA5B7B18071A62008246EE /* Ciliegio Selvatico (Prunus avium).png */,
+				86AA5B7C18071A62008246EE /* Ficus ginseng (Ficus retusa).png */,
+				86AA5B7D18071A62008246EE /* Gardenia (Gardenia jasminoides).png */,
+				86AA5B7E18071A62008246EE /* Gelso Nero.png */,
+				86AA5B7F18071A62008246EE /* Giada (Crassula ovata).png */,
+				86AA5B8018071A62008246EE /* Ginepro dello Utah (Juniperus osteosperma).png */,
+				86AA5B8118071A62008246EE /* Kapok (Ceiba Pentandra).png */,
+				86AA5B8218071A62008246EE /* Ligustro cinese (Ligustrum sinesis).png */,
+				86AA5B8318071A62008246EE /* Liquidambar (Liquidambar Styraciflua).png */,
+				86AA5B8418071A62008246EE /* Melo (Malus Communis).png */,
+				86AA5B8518071A62008246EE /* MetaSequoia (Metasequoia glyptostroboides).png */,
+				86AA5B8618071A62008246EE /* Pino Contorto (pinus contorta Marrayana).png */,
+				86AA5B8718071A62008246EE /* Pino d'Aleppo (Pinus Halepensis).png */,
+				86AA5B8818071A62008246EE /* Pino Nero Giapponese (Pinus Thunbergii).png */,
+				86AA5B8918071A62008246EE /* Pyracantha (Pyracantha coccinea.png */,
+				86AA5B8A18071A62008246EE /* Tasso (Taxus Baccata).png */,
+			);
+			name = FPCBonsaiImages;
+			path = FPBonsaiDue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86467A8A17FED0EF008FCF80 /* FPBonsaiDue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86467AC617FED0EF008FCF80 /* Build configuration list for PBXNativeTarget "FPBonsaiDue" */;
+			buildPhases = (
+				86467A8717FED0EF008FCF80 /* Sources */,
+				86467A8817FED0EF008FCF80 /* Frameworks */,
+				86467A8917FED0EF008FCF80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPBonsaiDue;
+			productName = FPBonsaiDue;
+			productReference = 86467A8B17FED0EF008FCF80 /* FPBonsaiDue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86467AB317FED0EF008FCF80 /* FPBonsaiDueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86467AC917FED0EF008FCF80 /* Build configuration list for PBXNativeTarget "FPBonsaiDueTests" */;
+			buildPhases = (
+				86467AB017FED0EF008FCF80 /* Sources */,
+				86467AB117FED0EF008FCF80 /* Frameworks */,
+				86467AB217FED0EF008FCF80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86467ABB17FED0EF008FCF80 /* PBXTargetDependency */,
+			);
+			name = FPBonsaiDueTests;
+			productName = FPBonsaiDueTests;
+			productReference = 86467AB417FED0EF008FCF80 /* FPBonsaiDueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86467A8317FED0EF008FCF80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BonsaiDue;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Federico Paliotta";
+				TargetAttributes = {
+					86467A8A17FED0EF008FCF80 = {
+						DevelopmentTeam = 72H6D5R7Q6;
+					};
+					86467AB317FED0EF008FCF80 = {
+						TestTargetID = 86467A8A17FED0EF008FCF80;
+					};
+				};
+			};
+			buildConfigurationList = 86467A8617FED0EF008FCF80 /* Build configuration list for PBXProject "FPBonsaiDue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86467A8217FED0EF008FCF80;
+			productRefGroup = 86467A8C17FED0EF008FCF80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86467A8A17FED0EF008FCF80 /* FPBonsaiDue */,
+				86467AB317FED0EF008FCF80 /* FPBonsaiDueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86467A8917FED0EF008FCF80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AA5BA51809B8D7008246EE /* Altro.png in Resources */,
+				86AA5B8F18071A62008246EE /* Acero Trilobo (Acer monospessulanum).png in Resources */,
+				86AA5B9F18071A62008246EE /* Pino d'Aleppo (Pinus Halepensis).png in Resources */,
+				86AA5B9118071A62008246EE /* Cedro del Libano (Cedrus Libani).png in Resources */,
+				86AA5BC2180C2D87008246EE /* parojosG.xml in Resources */,
+				8676486D182121AF0032E7B7 /* haarcascade1275.xml in Resources */,
+				86467AAF17FED0EF008FCF80 /* Images.xcassets in Resources */,
+				86AA5B9218071A62008246EE /* Ciliegio Giapponese (Prunus Mahaleb).png in Resources */,
+				86AA5B9718071A62008246EE /* Giada (Crassula ovata).png in Resources */,
+				86467A9B17FED0EF008FCF80 /* InfoPlist.strings in Resources */,
+				86AA5BC0180C293C008246EE /* openCV-Info.plist in Resources */,
+				86AA5BC4180C2E35008246EE /* haarcascade_frontalface_alt2.xml in Resources */,
+				86467AA417FED0EF008FCF80 /* Main.storyboard in Resources */,
+				86AA5BA018071A62008246EE /* Pino Nero Giapponese (Pinus Thunbergii).png in Resources */,
+				86AA5B9818071A62008246EE /* Ginepro dello Utah (Juniperus osteosperma).png in Resources */,
+				86AA5B9018071A62008246EE /* Camelia Japonica.png in Resources */,
+				863A57C11AB672FE00DEB70C /* leavesCascade.xml in Resources */,
+				86AA5B701806F86E008246EE /* FPCBonsaiVarietiesInfo.plist in Resources */,
+				86AA5B9918071A62008246EE /* Kapok (Ceiba Pentandra).png in Resources */,
+				86AA5B9E18071A62008246EE /* Pino Contorto (pinus contorta Marrayana).png in Resources */,
+				86AA5B8C18071A62008246EE /* Abete di Douglas (Pseudotsuga Menziesii).png in Resources */,
+				86AA5B8B18071A62008246EE /* Abete Bianco (Abies alba).png in Resources */,
+				86AA5B9A18071A62008246EE /* Ligustro cinese (Ligustrum sinesis).png in Resources */,
+				86AA5B9418071A62008246EE /* Ficus ginseng (Ficus retusa).png in Resources */,
+				86AA5B8E18071A62008246EE /* Acero Rosso Giapponese (Acer palmatum atropurpureum).png in Resources */,
+				86AA5BA218071A62008246EE /* Tasso (Taxus Baccata).png in Resources */,
+				86AA5B9518071A62008246EE /* Gardenia (Gardenia jasminoides).png in Resources */,
+				86AA5B9D18071A62008246EE /* MetaSequoia (Metasequoia glyptostroboides).png in Resources */,
+				86AA5B8D18071A62008246EE /* Acacia Retinodes.png in Resources */,
+				86AA5B9B18071A62008246EE /* Liquidambar (Liquidambar Styraciflua).png in Resources */,
+				86AA5BA118071A62008246EE /* Pyracantha (Pyracantha coccinea.png in Resources */,
+				86AA5B9C18071A62008246EE /* Melo (Malus Communis).png in Resources */,
+				86AA5B9318071A62008246EE /* Ciliegio Selvatico (Prunus avium).png in Resources */,
+				86AA5B9618071A62008246EE /* Gelso Nero.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86467AB217FED0EF008FCF80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86467AC117FED0EF008FCF80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86467A8717FED0EF008FCF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86467A9D17FED0EF008FCF80 /* main.m in Sources */,
+				86467AAD17FED0EF008FCF80 /* FPCBonsaiDueDetailViewController.m in Sources */,
+				86467AD117FEDB06008FCF80 /* FPCBonsaiDataController.m in Sources */,
+				86467AA117FED0EF008FCF80 /* FPCBonsaiDueAppDelegate.m in Sources */,
+				86AA5B6E1805B931008246EE /* FPCBonsaiDueCameraController.mm in Sources */,
+				86467ACE17FED3B9008FCF80 /* FPCBonsai.m in Sources */,
+				86467AA717FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodeld in Sources */,
+				86AA5BAC180AD401008246EE /* FPCBonsaiDueCV.mm in Sources */,
+				86FFE36317FF3E400086F425 /* FPCBonsaiDueAddBonsaiViewController.m in Sources */,
+				86467AAA17FED0EF008FCF80 /* FPCBonsaiDueMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86467AB017FED0EF008FCF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86467AC317FED0EF008FCF80 /* FPCBonsaiDueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86467ABB17FED0EF008FCF80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86467A8A17FED0EF008FCF80 /* FPBonsaiDue */;
+			targetProxy = 86467ABA17FED0EF008FCF80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86467A9917FED0EF008FCF80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86467A9A17FED0EF008FCF80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86467AA217FED0EF008FCF80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86467AA317FED0EF008FCF80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86467ABF17FED0EF008FCF80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86467AC017FED0EF008FCF80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86467AC417FED0EF008FCF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86467AC517FED0EF008FCF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86467AC717FED0EF008FCF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Developer/Examples/iPhone/Projects/FPBonsaiDue/FPBonsaiDue/Frameworks,
+					"$(PROJECT_DIR)/FPBonsaiDue/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPBonsaiDue/FPBonsaiDue-Prefix.pch";
+				INFOPLIST_FILE = "FPBonsaiDue/FPBonsaiDue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Aleph/Desktop/opencv-2.4.6.1/3rdparty/lib",
+					"/Users/Aleph/Desktop/opencv-2.4.6.1/build/3rdparty/lib",
+					"/Users/Aleph/Desktop/opencv-2.4.6.1/build/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86467AC817FED0EF008FCF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Developer/Examples/iPhone/Projects/FPBonsaiDue/FPBonsaiDue/Frameworks,
+					"$(PROJECT_DIR)/FPBonsaiDue/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPBonsaiDue/FPBonsaiDue-Prefix.pch";
+				INFOPLIST_FILE = "FPBonsaiDue/FPBonsaiDue-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Aleph/Desktop/opencv-2.4.6.1/3rdparty/lib",
+					"/Users/Aleph/Desktop/opencv-2.4.6.1/build/3rdparty/lib",
+					"/Users/Aleph/Desktop/opencv-2.4.6.1/build/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		86467ACA17FED0EF008FCF80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FPBonsaiDue.app/FPBonsaiDue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPBonsaiDue/FPBonsaiDue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FPBonsaiDueTests/FPBonsaiDueTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		86467ACB17FED0EF008FCF80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FPBonsaiDue.app/FPBonsaiDue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPBonsaiDue/FPBonsaiDue-Prefix.pch";
+				INFOPLIST_FILE = "FPBonsaiDueTests/FPBonsaiDueTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86467A8617FED0EF008FCF80 /* Build configuration list for PBXProject "FPBonsaiDue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86467AC417FED0EF008FCF80 /* Debug */,
+				86467AC517FED0EF008FCF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86467AC617FED0EF008FCF80 /* Build configuration list for PBXNativeTarget "FPBonsaiDue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86467AC717FED0EF008FCF80 /* Debug */,
+				86467AC817FED0EF008FCF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86467AC917FED0EF008FCF80 /* Build configuration list for PBXNativeTarget "FPBonsaiDueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86467ACA17FED0EF008FCF80 /* Debug */,
+				86467ACB17FED0EF008FCF80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86467AA517FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86467AA617FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodel */,
+			);
+			currentVersion = 86467AA617FED0EF008FCF80 /* FPCBonsaiDue.xcdatamodel */;
+			path = FPCBonsaiDue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86467A8317FED0EF008FCF80 /* Project object */;
+}

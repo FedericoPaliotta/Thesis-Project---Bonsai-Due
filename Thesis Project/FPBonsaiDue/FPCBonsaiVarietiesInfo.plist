@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>familly</key>
+			<string>Abete Bianco (Abies alba)</string>
+			<key>picture</key>
+			<string>Abete Bianco (Abies alba).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Abete di Douglas (Pseudotsuga Menziesii)</string>
+			<key>picture</key>
+			<string>Abete di Douglas (Pseudotsuga Menziesii).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Acacia Retinodes</string>
+			<key>picture</key>
+			<string>Acacia Retinodes.png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Acero Rosso Giapponese (Acer palmatum atropurpureum)</string>
+			<key>picture</key>
+			<string>Acero Rosso Giapponese (Acer palmatum atropurpureum).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Acero Trilobo (Acer monospessulanum)</string>
+			<key>picture</key>
+			<string>Acero Trilobo (Acer monospessulanum).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Camelia Japonica</string>
+			<key>picture</key>
+			<string>Camelia Japonica.png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Cedro del Libano (Cedrus Libani)</string>
+			<key>picture</key>
+			<string>Cedro del Libano (Cedrus Libani).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Ciliegio Giapponese (Prunus Mahaleb)</string>
+			<key>picture</key>
+			<string>Ciliegio Giapponese (Prunus Mahaleb).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Ciliegio Selvatico (Prunus avium)</string>
+			<key>picture</key>
+			<string>Ciliegio Selvatico (Prunus avium).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Ficus ginseng (Ficus retusa)</string>
+			<key>picture</key>
+			<string>Ficus ginseng (Ficus retusa).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Gardenia (Gardenia jasminoides)</string>
+			<key>picture</key>
+			<string>Gardenia (Gardenia jasminoides).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Gelso Nero</string>
+			<key>picture</key>
+			<string>Gelso Nero.png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Giada (Crassula ovata)</string>
+			<key>picture</key>
+			<string>Giada (Crassula ovata).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Ginepro dello Utah (Juniperus osteosperma)</string>
+			<key>picture</key>
+			<string>poppy.png</string>
+			<key>url</key>
+			<string>http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Kapok (Ceiba Pentandra)</string>
+			<key>picture</key>
+			<string>Kapok (Ceiba Pentandra).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Ligustro cinese (Ligustrum sinesis)</string>
+			<key>picture</key>
+			<string>Ligustro cinese (Ligustrum sinesis).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Melo (Malus Communis)</string>
+			<key>picture</key>
+			<string>Melo (Malus Communis).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Pino Contorto (pinus contorta Marrayana)</string>
+			<key>picture</key>
+			<string>Pino Contorto (pinus contorta Marrayana).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Pino d&apos;Aleppo (Pinus Halepensis)</string>
+			<key>picture</key>
+			<string>Pino d&apos;Aleppo (Pinus Halepensis).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Pino Nero Giapponese (Pinus Thunbergii)</string>
+			<key>picture</key>
+			<string>Pino Nero Giapponese (Pinus Thunbergii).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Pyracantha (Pyracantha coccinea</string>
+			<key>picture</key>
+			<string>Pyracantha (Pyracantha coccinea.png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Tasso (Taxus Baccata)</string>
+			<key>picture</key>
+			<string>Tasso (Taxus Baccata).png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+		<dict>
+			<key>familly</key>
+			<string>Altro</string>
+			<key>picture</key>
+			<string>Altro.png</string>
+			<key>url</key>
+			<string>//http://en.wikipedia.org/wiki/Poppy</string>
+		</dict>
+	</array>
+</array>
+</plist>
